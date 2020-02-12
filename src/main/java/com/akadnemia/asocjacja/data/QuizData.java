@@ -36,7 +36,7 @@ public class QuizData implements CommandLineRunner {
         test.addQuestion(question);
         test.addQuestion(question2);
         test.addQuestion(question3);
-        
+
 
         testRepository.save(test);
 
